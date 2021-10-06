@@ -1,9 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <title>Мой проект</title>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <title>Denis Novik</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Это мой проект</h1>
+    <!-- Header start -->
+    <header class="header">
+        <div class="wrapper">
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#!" class="header__link">Home</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#!" class="header__link">About me</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#!" class="header__link">Skills</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#!" class="header__link">Portfolio</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#!" class="header__link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="intro">
+            <div class="intro__name">
+                <p class="intro__name-text">Denis <br> Novik</p>
+            </div>
+            <div class="intro__info">
+                <p class="intro__info-text">UX | UI designer<br>24 years old, Minsk</p>
+            </div>
+            <div class="intro__lang">
+                <p class="intro__lang-text">ENG <p class="intro__lang-active-text">RU</p></p>
+            </div>
+        </div>
+
+        <div class="photo">
+            <img src="/imgs/photo.jpg">
+        </div>
+        <div class="about__me">
+            <p class="about__me-text">About me</p>
+            </p>
+            <p class="about__me-format">Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and everything connected with it.</p>
+            <p class="about__me-format">I'm studying at courses "Web and mobile design <br> interfaces" in IT-Academy.</p>
+            <p class="about__me-format">Ready to implement excellent projects <br> with wonderful people</p>
+        </div>
+        <div class="skills">
+            <div class="skills__title">
+                <p class="skills__title-text">Skills</p>
+                <p class="programs">I work in such programs as</p>
+            </div>
+        </div>
+        <div class="programs__cards">
+            <div class="programs__card">
+                <div class="programs__pic">
+                    <img src="psd.svg">
+                </div>
+                <h3 class="program__name">Adobe <br>Photoshop</h3>
+                <div class="stars">
+                    <div class="star">
+                        <img src="full-star.svg">
+                        <img src="full-star.svg">
+                        <img src="full-star.svg">
+                        <img src="full-star.svg">
+                        <img src="empty-star.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="programs__card">
+                <div class="programs__pic">
+                    <img src="ai.svg">
+                </div>
+                <h3 class="program__name">Adobe <br>Illustrator</h3>
+                <div class="stars">
+                    <div class="star">
+                        <img src="full-star.svg">
+                        <img src="full-star.svg">
+                        <img src="full-star.svg">
+                        <img src="empty-star.svg">
+                        <img src="empty-star.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="programs__card">
+                <div class="programs__pic">
+                    <img src="ae.svg">
+                </div>
+                <h3 class="program__name">Adobe <br>After Effects</h3>
+                <div class="stars">
+                    <div class="star">
+                        <img src="full-star.svg">
+                        <img src="full-star.svg">
+                        <img src="full-star.svg">
+                        <img src="full-star.svg">
+                        <img src="empty-star.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="programs__card">
+                <div class="programs__pic">
+                    <img src="figma.svg">
+                </div>
+                <h3 class="program__name">Figma</h3>
+                <div class="stars">
+                    <div class="star">
+                        <img src="full-star.svg">
+                        <img src="full-star.svg">
+                        <img src="full-star.svg">
+                        <img src="full-star.svg">
+                        <img src="empty-star.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolios">
+                <h2 class="portfolio-title">Portfolio</h2>
+                <div class="portfolio">
+                    <div class="port">
+                        <img src="p1.jpg" alt="portfolio #1">
+                    </div>
+                    <p class="portfolio-name">Online fashion store - Homepage</p>
+                </div>
+                <div class="portfolio">
+                    <div class="port">
+                        <img src="p2.jpg" alt="portfolio #1">
+                    </div>
+                    <p class="portfolio-name">Reebok Store - Concept</p>
+                </div>
+                <div class="portfolio">
+                    <div class="port">
+                        <img src="p3.jpg" alt="portfolio #1">
+                    </div>
+                    <p class="portfolio-name">Braun Landing Page - Concept</p>
+                </div>
+        </div>
+        <div class="psevdo__code">
+            <pre>
+
+                ...................／＞　 フ.....................
+                　　　　　| 　_　 _|
+                　 　　　／`ミ _x 彡
+                　　 　 /　　　 　 |
+                　　　 /　 ヽ　　 ﾉ
+                　／￣|　　 |　|　|
+                　| (￣ヽ＿_ヽ_)_)
+                　＼二つ
+                </pre>
+        
+            <pre>
+                <code>
+                    public class Main {
+                        public static void main(String[] args) {
+                            System.out.println("Hello, world!");
+                        }
+                    }
+                </code>
+            </pre>
+            <p align=center>
+                coffe <sup>2</sup> + inspiration = art
+            </p>
+        </div>
+    </main>
+    <div class="footer">
+        <div class="contacts">Contacts</div>
+        <p class="last-p">Want to know more or just chat? <br>You are welcome!</p>
+        <div class="button-div">
+            <button class="button">Send message</button>
+        </div>
+        <div class="socials">
+            <div class="social">
+                <img src="in.svg" alt="LinkedIn">
+            </div>
+            <div class="social">
+                <img src="inst.svg" alt="Instagram">
+            </div>
+            <div class="social">
+                <img src="be.svg" alt="Behance">
+            </div>
+            <div class="social">
+                <img src="ball.svg" alt="Dripple">
+            </div>
+        </div>
+        <p class="little__text">Like me on <br>LinkedIn, Instagram, Behance, Dribble</p>
+    </div>
+    </header>
 </body>
 </html>
