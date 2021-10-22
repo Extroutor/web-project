@@ -24,20 +24,23 @@
             </div>
             <nav class="header__nav">
                 <ul class="header__list">
-                    <li class="header__item">
-                        <a href="#!" class="header__link">Home</a>
+                    <li>
+                        <a href="index.html" class="header__link">Home</a>
                     </li>
-                    <li class="header__item">
-                        <a href="#!" class="header__link">About me</a>
+                    <li>
+                        <a href="#about__me" class="header__link">About me</a>
                     </li>
-                    <li class="header__item">
-                        <a href="#!" class="header__link">Skills</a>
+                    <li>
+                        <a href="#skills" class="header__link">Skills</a>
                     </li>
-                    <li class="header__item">
-                        <a href="#!" class="header__link">Portfolio</a>
+                    <li>
+                        <a href="#portfolios" class="header__link">Portfolio</a>
                     </li>
-                    <li class="header__item">
-                        <a href="contact.html" class="header__link">Contacts</a>
+                    <li>
+                        <a href="#contact" class="header__link">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="header__link header__link-last">Reviews</a>
                     </li>
                 </ul>
             </nav>
@@ -50,14 +53,14 @@
             <p class="intro__year-text">2021</p>
         </div>
         <img class="photo wow animate__animated animate__zoomIn" data-wow-duration="0.8s" src="imgs/photo.jpg">
-        <div class="about__me">
+        <div class="about__me" id="about__me">
             <p class="about__me-text">About me</p>
             </p>
             <p class="about__me-format">Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and everything connected with it.</p>
             <p class="about__me-format">I'm studying at courses "Web and mobile design <br> interfaces" in IT-Academy.</p>
             <p class="about__me-format">Ready to implement excellent projects <br> with wonderful people</p>
         </div>
-        <div class="skill">
+        <div class="skills" id="skills">
             <div class="skills__title">
                 <p class="skills__title-text">Skills</p>
                 <p class="programs">I work in such programs as</p>
@@ -113,7 +116,7 @@
             </div>
         </div>
 
-        <div class="portfolios">
+        <div class="portfolios" id="portfolios">
                 <h2 class="portfolio-title">Portfolio</h2>
                 <div class="portfolio wow animate__animated animate__fadeInLeft">
                     <img animate__fadeInLeft class="port" src="imgs/p1.jpg" alt="portfolio #1">
@@ -129,16 +132,26 @@
                 </div>
         </div>
     </main>
-    <div class="footer">
-        <div class="container__footer">
+    <div class="footer" id="contact">
             <p class="contacts">Contacts</p>
             <p class="last-p">Want to know more or just chat? <br>You are welcome!</p>
-            
-            <div class="button-div">
+            <div class="container__footer">
+                <div class="contact__container wow animate__animated animate__zoomIn">
+                <img class="contact__photo wow animate__animated animate__zoomIn" data-wow-duration="0.8s" src="imgs/Group 2.2.png">
+                <div class="contact__info">
+                    <p class="contact__header intro__info-text">Позвони нам</p>
+                    <p class="contact__text intro__info-text">1 (234) 567-891<br>1 (234) 987-654</p>
+                    <p class="contact__header intro__info-text">Место нахождения</p>
+                    <p class="contact__text intro__info-text">
+                        121 Rock Sreet, 21 Avenue,<br>Нью-Йорк, NY 92103-9000
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="button-div">
                 <form action="contact.html">
                     <button class="button wow animate__animated animate__tada" type="submit">Send message</button>
                 </form>
-            </div>
+            </div> -->
             <div class="socials">
                 <img src="imgs/in.svg" alt="LinkedIn">
                 <img src="imgs/inst.svg" alt="Instagram">

@@ -32,23 +32,35 @@ html{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     border-bottom: 1.5px solid #828282; /* Параметры рамки */
 }
+
 .header__burger{
     display: none;
 }
 
 .header__link{
     font-family: Gilroy-Bold;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     color: #070707;
     text-decoration: none;
 }
 .header__link:hover, .header__link:focus, .header__link:hover.active{
     color: #555555;
-    font-size: 20px;
+    font-size: 17px;
+}
+.header__link-last{
+    color: #ad1111;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.header__link-last:hover, .header__link-last:focus, .header__link-last:hover.active{
+    color: #e63030;
+    font-size: 18px;
 }
 .intro{
     display: flex;
@@ -128,7 +140,7 @@ html{
 .skills__title{
     display: block;
     margin: 0 auto;
-    margin-top: 91px;
+    padding-top: 70px;
     background-color: rgb(255, 255, 255);
 }
 .skills__title-text{
@@ -147,8 +159,7 @@ html{
 .programs__cards{
     display: flex;
     justify-content: space-between;
-    width: 70%;
-    margin: 8% auto 10%;
+    margin: 8% auto 0%;
 }
 .programs__card{
     width: 30%;
@@ -209,11 +220,11 @@ html{
     text-decoration-line: underline;
 }
 .container__footer{
-    width: 30%;
+    width: 70%;
     margin: auto;
 }
 .contacts{
-    padding-top: 30%;
+    padding-top: 90px;
     font-family: Gilroy-Bold;
     font-size: 34px;
     line-height: 42px;
@@ -226,7 +237,7 @@ html{
     line-height: 22px;
     text-align: center;
 }
-.button-div{
+/* .button-div{
     width: max-content;
     margin: 30px auto 86px;
 }
@@ -244,14 +255,15 @@ html{
 .button:hover{
     background: #353434;
     transform: scale(1.1);
-}
+} */
 .socials{
     display: flex;
     justify-content: space-between;
+    width: 40%;
     margin: 0 auto 46px;
 }
 .little__text {
-    padding-bottom: 123px;
+    padding-bottom: 90px;
     font-family: Gilroy-Medium;
     font-size: 14px;
     line-height: 17px;
@@ -266,8 +278,7 @@ html{
 
 .contact__container{
     display: flex;
-    width: 70%;
-    margin: 60px auto 200px;
+    margin: 60px auto 120px;
 
 }
 .contact__photo{
@@ -295,8 +306,7 @@ html{
     text-align: center;
     width: 100%;
     margin: auto;
-    margin-bottom: 10%;
-    line-height: 3vh;
+    line-height: 4vh;
 }
 
 
