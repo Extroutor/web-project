@@ -57,6 +57,7 @@ html{
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
+    padding-left: 6vw;
 }
 .header__link-last:hover, .header__link-last:focus, .header__link-last:hover.active{
     color: #e63030;
