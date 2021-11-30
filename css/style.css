@@ -27,6 +27,34 @@ html{
     margin: auto;
     margin-top: 33px;
 }
+.upward{
+    position: fixed;
+    bottom: 700px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+    background: url("/imgs/upward.png");
+    background-size: cover;
+    z-index: 1;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5;
+}
+.upward.active{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 0.5;
+    transition: 0.5;
+
+}
+.upward.active:hover{
+    bottom: 40px;
+    visibility: visible;
+    width: 75px;
+    height: 75px;
+    opacity: 0.8;
+}
 .header__list{
     display: flex;
     flex-wrap: wrap;
@@ -52,7 +80,7 @@ html{
     font-size: 17px;
 }
 .header__link-last{
-    color: #ad1111;
+    color: #e66700;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -60,7 +88,7 @@ html{
     padding-left: 6vw;
 }
 .header__link-last:hover, .header__link-last:focus, .header__link-last:hover.active{
-    color: #e63030;
+    color: #ff7d13;
     font-size: 18px;
 }
 .intro{
@@ -137,6 +165,7 @@ html{
 .skills{
     width: 70%;
     margin: auto;
+    margin-bottom: 120px;
 }
 .skills__title{
     display: block;
@@ -214,11 +243,11 @@ html{
 }
 .portfolio-name{
     padding-bottom: 96px;
+    padding-top: 10px;
     font-family: Gilroy-Medium;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    text-decoration-line: underline;
 }
 .container__footer{
     width: 70%;
@@ -309,6 +338,72 @@ html{
     margin: auto;
     line-height: 4vh;
 }
+
+.loadTime{
+    display: block;
+    max-width: 20%;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Gilroy-Bold;
+    line-height: 1.5;
+    color: #c76a00b4;
+}
+
+.table{
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 0.5fr 1fr 1fr; 
+    padding: 80px 0px;
+    overflow:auto;
+    gap: 2px 0px;
+}
+
+.box{
+    font-style: 20px;
+    font-family: Gilroy-Medium;
+    line-height: 33px;
+    padding: 1em;
+}
+
+
+
+.box:nth-child(2n+3) {
+    background-color: rgb(230, 230, 230);
+    color:#000000;
+}
+.box:nth-child(2n+2) {
+    background-color: rgb(230, 230, 230);
+    color:#000000;
+}
+.box:nth-child(5) {
+    background-color: #fafafa;
+    color:#000000;
+}
+.box:nth-child(6) {
+    background-color: #fafafa;
+    color:#000000;
+}
+.box:nth-child(-n + 1) {
+    background-color: rgb(56, 56, 56);
+    color:#F6F6F6;
+}
+.box:nth-child(n+4):nth-child(-n+4) {
+    background-color: rgb(56, 56, 56);
+    color:#F6F6F6;
+}
+.box:nth-child(n + 7):nth-child(-n + 7) {
+    background-color: rgb(56, 56, 56);
+    color:#F6F6F6;
+}
+
 
 
 @media screen and(max-width: 640px) {
