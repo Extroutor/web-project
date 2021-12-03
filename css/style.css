@@ -33,7 +33,7 @@ html{
     right: 40px;
     width: 70px;
     height: 70px;
-    background: url("/imgs/upward.png");
+    background: url("imgs/upward.png");
     background-size: cover;
     z-index: 1;
     cursor: pointer;
@@ -80,16 +80,16 @@ html{
     font-size: 17px;
 }
 .header__link-last{
-    color: #e66700;
-    font-size: 18px;
+    color: #555555;
+    font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-left: 6vw;
 }
 .header__link-last:hover, .header__link-last:focus, .header__link-last:active{
-    color: #ff7d13;
-    font-size: 18px;
+    color: #313131;
+    font-size: 20px;
 }
 .intro{
     display: flex;
@@ -494,7 +494,7 @@ input[type=checkbox]:checked ~ div {
     border: solid; 
     -webkit-border-radius:25px;
     -moz-border-radius:25px; 
-    border-radius: 25px; 
+    border-radius: 2vw; 
     font-family: Gilroy-Medium;
     font-size: 1.7vw;
     color:rgb(56, 56, 56); 
