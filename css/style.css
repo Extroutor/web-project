@@ -559,3 +559,54 @@ input[type=checkbox]:checked ~ div {
     }
     
 }
+
+
+
+#main_card {
+	color: #03b300;
+	margin: 200px 10% 150px 10%;
+	background-color: #000;
+	text-align: center;
+	font-size: 20px;
+}
+
+.card {
+	border: 7px #03b300 double;
+	border-radius: 7px;
+	/*width: fit-content;*/
+	width: 300px;
+	padding: 5px;
+	margin-top: 10px;
+	max-width: 300px;
+	color: #014600;
+	margin-right: 10px;
+	min-height: 427px;
+}
+
+#cards {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+#add-card {
+	font-size: 30px;
+	color: black;
+	font-family: monospace;
+	border: 0;
+	font-weight: bold;
+	background-color: rgb(3 199 0 / 20%);
+}
+
+#add-card:hover {
+	background: radial-gradient(ellipse at bottom, #03b300 0%, #013901 50%);
+}
+
+.card.preloader.disabled {
+	display: none;
+}
+
+.preloader-img {
+
+}
