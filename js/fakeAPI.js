@@ -21,14 +21,14 @@ window.addEventListener('load', () => {
         const card_body = card.getElementById("card-body");
         preloader.classList.remove('disabled');
         try {
-            let response = await fetch('https://jsonplaceholder.typicode.com/todos' + id);
+            let response = await fetch('https://jsonplaceholder.typicode.com/posts/' + id);
             if (response.ok) {
                 let json = await response.json();
                 console.log(json);
                 if (Object.keys(json).length) {
                     card_title_h2.innerHTML = json.title;
                     card_body.setAttribute('id', id);
-                    card_body.innerHTML = json.completed;
+                    card_body.innerHTML = json.body;
                     id = id + 1;
                 } else {
                     alert("⚠ Что-то пошло не так");
