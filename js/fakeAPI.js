@@ -7,7 +7,6 @@ function sleep(milliseconds) {
 }
 
 window.addEventListener('load', () => {
-
     let id = 1;
     const preloader = document.getElementById("preloader");
     const cards = document.getElementById("cards");

@@ -1,12 +1,6 @@
 window.onload = () => {
-    document.querySelector('.button').addEventListener('click', ()=>{
-        var el = document.getElementById('.Button');
-        if(el){
-            el.addEventListener('click', swapper, false)
-        }
-        let data = document.querySelector('.feature-1').value;
-
-
+    document.querySelector('.button').addEventListener('click', ()=>
+    {
         if (document.querySelector('.feature-1').checked && document.querySelector('.feature-2').checked) {
             document.querySelector('.total__price').innerHTML = 'Выберите корректно вид сайта';
         }
